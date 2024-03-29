@@ -1,3 +1,5 @@
+import {Component} from 'react'
+
 const initialTodosList = [
   {
     id: 1,
@@ -34,3 +36,15 @@ const initialTodosList = [
 ]
 
 // Write your code here
+class SimpleTodos extends Component {
+  render() {
+    return (
+      <div className="app-container">
+        <div className="simple-todos-container">
+          <h1 className="heading">Simple Todos</h1>
+        </div>
+      </div>
+    )
+  }
+}
+export default SimpleTodos
